@@ -28,7 +28,7 @@ I compared four neural network models:
 3.   ResNet18 (not pretrained) (accuracy rate of **65%**)
 4.   Pretrained ResNet18 (accuracy rate of **86%**)
 
-The primary challenge was rapid overfitting during training, prompting me to experiment with complexifying the CNN architectures and incorporating dropout and layer normalization. However, these modifications did not yield improvements beyond the maximum accuracy rate of 65%.
+The primary challenge was rapid **overfitting** during training, prompting me to experiment with complexifying the CNN architectures and incorporating dropout and layer normalization. However, these modifications did not yield improvements beyond the maximum accuracy rate of 65%.
 
 To further explore, I thought of comparing my architecture to a state-of-the-art (SOTA) architecture, ResNet18 from torchvision.models. Initially using an untrained ResNet18, I reached the same maximum accuracy rate of 65% after extensive training sessions.
 
